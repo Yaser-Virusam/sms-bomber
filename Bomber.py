@@ -1,11 +1,23 @@
 #Yaser Virusam
 import os
 # AHA
-os.system("pkg install tor")
-os.system("tor")
+print("""\033[31m
+ Loading . . . \033[93m
+
+
+
+            ______   _______  _______  ______   _______  _______
+           (  ___ \ (  ___  )(       )(  ___ \ (  ____ \(  ____ )
+           | (   ) )| (   ) || () () || (   ) )| (    \/| (    )|
+           | (__/ / | |   | || || || || (__/ / | (__    | (____)
+           |  __ (  | |   | || |(_)| ||  __ (  |  __)   |     __)\033[35m
+           | (  \ \ | |   | || |   | || (  \ \ | (      | (\ (
+           | )___) )| (___) || )   ( || )___) )| (____/\| ) \ \__
+           |/ \___/ (_______)|/     \||/ \___/ (_______/|/   \__/
+       \033[31m    """)
 os.system("pip install colored")
 os.system("pip install colorama")
-os.system("pip install datetime")
+os.system("\033[31mpip install datetime")
 #importing libs
 import time                                                     
 import sys                                                      
@@ -15,14 +27,12 @@ import datetime
 from colored import fg, bg, attr
 import os
 import time
-import requests
 from threading import Thread
 from colorama import Fore
 from time import sleep
 proxy = {"https":"127.0.0.1:9050"}
 os.system("clear")
-print(Fore.YELLOW)
-print("""Loading . . .
+print("""\033[93m Loading . . .
 
  .n                     .             .                n.
   . .dP                   dP               9b               9b   .
@@ -46,7 +56,7 @@ dX.  9Xb      .dXb                              dXb.   dXP   .Xb
 """)
 print(""" """)
 print(Fore.RED)
-print("""《◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇》""")
+print("""\033[32m《\033[31m◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇\033[32m》""")
 print(""" """)
 print(Fore.RED)
 print("""
@@ -58,7 +68,7 @@ print("""
 """)
 print(""" """)
 print(Fore.RED)
-print("""《◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇》""")
+print("""\033[32m《\033[31m◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇\033[32m》""")
 time.sleep(5) 
 print(""" """)
 print(""" """)
